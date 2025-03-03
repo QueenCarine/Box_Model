@@ -22,43 +22,43 @@
         <form>
           <div class="form">
          <fieldset>
-             <label for="first-name">First Name 
+             <label for="first-name" contenteditable="True">First Name 
             <br>
             <input type="text" id="first-name" placeholder="Enter your first name"/>
              </label><br>
-            <label for="last-name">Last Name
+            <label for="last-name" contenteditable="True">Last Name
             <br>
             <input type="text" id="last-name" placeholder="Enter your last name"/>
         <br></label>
         </fieldset>
         <br>
-        <label for="email">Email Address</label>
+        <label for="email" contenteditable="True">Email Address</label>
         <br>
         <br>
         <input type="email" id="email" placeholder="Enter your Email Address">
         <br>
         <br>
-        <label for="password">Password</label>
-        <br>
-        <br>
+       <div class="pass">
+        <label for="password" contenteditable="True">Password</label><br><br>
         <input type="password" id="password" placeholder="Enter your Password">
-        <br>
-        <br>
-        <label for="confirm-password">Confirm Password</label>
-        <br>
-        <br>
+        <i class="fa-solid fa-eye" style="position: absolute; right: 1px; top: 50px;"></i>
+       </div><br>
+       <div class="pass">
+        <label for="confirm-password" contenteditable="True">Confirm Password</label><br><br>
         <input type="password" id="confirm-password" placeholder="Confirm your Password"/>
+        <i class="fa-solid fa-eye" style="position: absolute; right: 1px; top: 50px;"></i>
+       </div>
         <br>
+       
         <br>
         <button class="submit" type="submit" > Create Account</button>
-        <p class="rather">Already have an account?<a href="#"style="text-decoration:none">Sign In</a></p>
+        <p class="rather">Already have an account?<a href="#" style="color: rgb(180, 71, 180);text-decoration: none;">Sign In</a></p>
         <p class="lines">or</p>
           </div>
           <div class="icons">
             <img class="image" src="./search.png">
             <i class="fa-brands fa-facebook-f" style="color: #217bc0;"></i>
             <i class="fa-brands fa-apple"></i>
-            <i class="fa-solid fa-eye pass password"></i>
           </div>
           </div>
         </form>
