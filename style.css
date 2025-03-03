@@ -1,0 +1,139 @@
+body{
+   border-color: white;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 229, 233);
+    gap: 100px;
+}
+fieldset{
+    display: flex;
+    gap: 25px;
+    border: 0px;
+    padding: 0px;
+    
+}
+input{
+    width:496px;
+    padding:10px;
+    border-color: rgb(255, 255, 255) 1px solid;
+    border-radius: 5px white;
+    font-size: 1em;
+}
+#last-name{
+    width:208px;
+}
+#first-name{
+    width:208px;
+}
+h1{
+    color: rgb(168, 74, 168);
+}
+.submit{
+    width:527px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(194, 93, 194);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:0px;
+    height: 40px;
+    font-size: 20px;
+    color:white;
+}
+.lines{
+    position:relative;
+    width: 500px;
+    margin: 30px;
+    text-align:center;
+}
+.lines:before{
+content:" ";
+height: 1px;
+width: 235px;
+background: rgb(182, 174, 174);
+display: block;
+position: absolute;
+top: 50%;
+left: 0;
+}
+
+.lines:after{
+content:" ";
+height: 1px;
+width: 235px;
+background: rgb(182, 174, 174);
+display:block;
+position: absolute;
+top: 50%;
+right: 0;
+}
+.password {
+    position: absolute;
+    top: 52%;
+    right: 350px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.pass {
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    right: 425px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.password{
+    font-size: 18px;
+    line-height: 1;
+    color: rgb(80, 80, 80);
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+.icons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap:150px;
+    font-size: 25px;
+    
+}
+.fa-brands{
+    background-color: white;
+    padding: 15px;
+    width:100px 100px 100px 100px;
+}
+.image{
+    width:25px;
+    background-color: white;
+    padding: 15px;
+    width:100px 100px 100px 100px;
+}
+
+.img {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+}
+.rather{
+    text-align: center;
+}
+form{
+    width:500px;
+    height:650px;
+    
+}
+.welcome{
+    font-size: 20px;
+}
+
+
