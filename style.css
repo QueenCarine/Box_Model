@@ -5,6 +5,7 @@ body{
     margin-top: 100px;
     margin-left: 300px;
     margin-right: 300px;
+    background-color: rgb(250, 229, 233);
     
 }
 .container{
@@ -12,7 +13,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: rgb(250, 229, 233);
-    gap: 100px;
+    gap: 40px;
 }
 fieldset{
     display: flex;
@@ -86,6 +87,8 @@ right: 0;
     display: flex;
     gap:150px;
     font-size: 25px;
+    height: 4px;
+    margin: 30px;
     
 }
 .fa-brands{
@@ -102,9 +105,9 @@ right: 0;
 
 .img {
     width: 500px;
-    height: 600px;
-    background-color: white;
-    padding: 20px;
+    height: 335px;
+    padding: 0px;
+    
     
 }
 .rather{
@@ -113,11 +116,13 @@ right: 0;
 form{
     width:500px;
     height:650px;
-    
+    border-left: 1px solid rgb(245, 186, 245 );
+    padding: 60px;
 }
 .welcome{
     font-size: 20px;
-    border-right: 1px solid rgb(245, 186, 245);
+    text-align: center;
+    
 }
 
 
